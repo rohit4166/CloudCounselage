@@ -25,9 +25,9 @@ public class Serv1 extends HttpServlet {
         response.getWriter().append("Served at: ").append(request.getContextPath());
 
         String host = "smtp.gmail.com";
-        final String user = "rd10311031@gmail.com"; // change accordingly
-        final String password = "cjym ojwh tapj fhjh"; // change accordingly
-        String to = "rd10311031@gmail.com"; // change accordingly
+        final String user = "xyz@gmail.com"; // change accordingly
+        final String password = "xyz"; // change accordingly
+        String to = "Abc@gmail.com"; // change accordingly
 
         Properties props = new Properties();
         props.put("mail.smtp.host", host);
